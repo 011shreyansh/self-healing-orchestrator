@@ -1,0 +1,55 @@
+# Environments and virtualenvs
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets (CRITICAL: Never commit API keys or GitHub tokens)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Packaging & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+
+# Ephemeral SRE workspace and temp files
+sre_*
+crash_reports/
+old/
+target_app/main_fixed.py
+target_app/main_backup.py
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
